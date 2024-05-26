@@ -10,7 +10,7 @@ class Config(object):
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002105718537"))
 	SHORTLINK_URL = os.environ.get('SHORTLINK_URL')
 	SHORTLINK_API = os.environ.get('SHORTLINK_API')
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "6295345515"))
 	DATABASE_URL = os.environ.get("mongodb+srv://Rexonblack:Rexonblack123@rexonblack.knmbp2d.mongodb.net/?retryWrites=true&w=majority&appName=rexonblack")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001874884561")
 	LOG_CHANNEL = os.environ.get("-1002011327804", None)
