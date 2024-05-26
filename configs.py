@@ -13,7 +13,7 @@ class Config(object):
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
 	DATABASE_URL = os.environ.get("mongodb+srv://Rexonblack:Rexonblack123@rexonblack.knmbp2d.mongodb.net/?retryWrites=true&w=majority&appName=rexonblack")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001874884561")
-	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
+	LOG_CHANNEL = os.environ.get("-1002011327804", None)
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
