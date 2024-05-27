@@ -11,7 +11,7 @@ class Config(object):
 	SHORTLINK_URL = os.environ.get('SHORTLINK_URL')
 	SHORTLINK_API = os.environ.get('SHORTLINK_API')
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "6295345515"))
-	DATABASE_URL = os.environ.get("mongodb+srv://Rexonblack:Rexonblack123@rexonblack.knmbp2d.mongodb.net/?retryWrites=true&w=majority&appName=rexonblack")
+	DATABASE_URL = os.environ.get("mongodb+srv://alokchauhan:alokchauhan@alokchauhan.csh0n6l.mongodb.net/")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001874884561")
 	LOG_CHANNEL = os.environ.get("-1002011327804", None)
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
