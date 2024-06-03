@@ -3,8 +3,8 @@
 import os
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "24979349"))
-	API_HASH = os.environ.get("ceef50502546a4ecdab59551496c4d57")
+	API_ID = int(os.environ.get("API_ID", "10000844"))
+	API_HASH = os.environ.get("776f257fc1d1f8aa4aea9dd35d10a45b")
 	BOT_TOKEN = os.environ.get("7358694327:AAFkgFORP5deJ3rU1Gu3P-XfLS6euI89fEM")
 	BOT_USERNAME = os.environ.get("Txtextractor1211bot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001956120366"))
