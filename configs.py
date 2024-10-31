@@ -3,13 +3,13 @@
 import os
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "24979349"))
-	API_HASH = os.environ.get("ceef50502546a4ecdab59551496c4d57")
+	API_ID = int(os.environ.get("API_ID", "28745135"))
+	API_HASH = os.environ.get("123e77214315877fe406e25f35afd23d")
 	BOT_TOKEN = os.environ.get("7358694327:AAFkgFORP5deJ3rU1Gu3P-XfLS6euI89fEM")
 	BOT_USERNAME = os.environ.get("Txtextractor1211bot")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001956120366"))
-	SHORTLINK_URL = os.environ.get('SHORTLINK_URL')
-	SHORTLINK_API = os.environ.get('SHORTLINK_API')
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002312870921"))
+	SHORTLINK_URL = os.environ.get('SHORTLINK_URL' "seturl.in")
+	SHORTLINK_API = os.environ.get('SHORTLINK_API' "40a2f999a5ab9adff0484f1ef1595c1684ab73c2")
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "6750546542"))
 	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://fiona171593:tbGMvepmKQ8YNfJy@cluster0.5ccbrkf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
